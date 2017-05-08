@@ -1,0 +1,109 @@
+/* font colors */
+/**************** General *************** */
+body, html {
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  color: #393E41; }
+
+.h-rule {
+  display: block;
+  width: 3rem;
+  background-color: #ba986a;
+  padding: 0.15rem 0.2rem;
+  margin: 0 0 1rem 0; }
+
+.carousel-inner {
+  width: 100%;
+  max-height: 30rem !important; }
+
+.row.no-gutter {
+  padding: 0; }
+
+h4 {
+  display: block;
+  margin: 1rem 0; }
+
+/*********** navigation top section ******* */
+nav.navbar-custom {
+  background: #fff;
+  transition: all 1s ease-in-out !important; }
+
+nav.navbar-custom .nav-link.custom {
+  color: #ba986a !important; }
+
+nav.navbar-custom .nav-link.custom:hover {
+  color: #82643c; }
+
+nav.navbar-custom .nav-link.custom.active {
+  color: #3c2e1c;
+  background: #fefefe; }
+
+.navbar-toggler-icon {
+  border: 0.15rem solid #ba986a; }
+
+.navbar-inverse .nav-link.custom {
+  color: #ba986a !important; }
+
+/**************** carousel *************** */
+.owl-carousel {
+  height: 70%; }
+
+/**************** heading1 *************** */
+.group-menu ul li {
+  padding: 0.15rem 0.5rem; }
+
+.group-menu ul li a {
+  text-decoration: none;
+  color: #393E41; }
+
+.group-menu ul li:hover {
+  background: #ba986a; }
+
+ul.heading1 {
+  padding: 1rem 0; }
+
+.group-menu ul li:active {
+  background: #82643c; }
+
+/**************** heading2 *************** */
+#heading2 {
+  padding: 4rem 0; }
+
+ul.tab-heading li a {
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #393E41; }
+
+ul.tab-heading li a:hover {
+  background: #ba986a;
+  padding: 0.5rem 0.3rem; }
+
+/**************** heading3 *************** */
+#main-content-bottom {
+  padding: 2rem 0; }
+
+/**************** footer *************** */
+footer {
+  background: #727272;
+  padding: 2rem 0; }
+
+footer a {
+  color: #ba986a; }
+
+footer small {
+  color: #fff; }
+
+footer ul li a:hover {
+  color: white;
+  text-decoration: none; }
+
+/*********** media queries ********** */
+/* xs and smaller */
+/* sm and md */
+/* md and lg */
+/* ok */
+/* lg and xl */
+/* ok */
